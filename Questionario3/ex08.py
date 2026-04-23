@@ -1,0 +1,10 @@
+a = int(input())
+b = int(input())
+c = int(input())
+p1 = input()
+p2 = input()
+passo1 = p1 * (a + b)
+passo2 = p2 * (b + c)
+passo3 = passo1 + passo2
+resultado = passo3 * (a + c)
+print(f'{resultado}')
